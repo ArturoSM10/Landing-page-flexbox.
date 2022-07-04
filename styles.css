@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+#flex-header {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    width: 100vw;
+    max-width: 1600px;
+    height: 80vh;
+    flex-wrap: nowrap;
+}
+#nav-menu {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 10rem 0;
+    flex-wrap: wrap;
+}
+#nav-menu ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+#nav-menu ul li a {
+    font-size: 1.125rem;
+    text-decoration: none;
+    color: #E5E7EB;
+}
+#hero-section {
+    display: flex;
+    margin: 0 9rem;
+    gap: 3rem;
+}
+#hero-section h1 {
+    font-size: 3rem;
+    color: #F9FAF8;
+}
+#hero-section p {
+    font-size: 1.125rem;
+    color: #E5E7EB;
+}
+#hero-section img {
+    width: 300px;
+    height: 250px;
+    flex: 1 1 300px ;
+}
+#hero-section button {
+    padding: 0.625rem 1.565rem;
+    border-radius: 0.5rem;
+
+}
