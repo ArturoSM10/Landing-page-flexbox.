@@ -1,0 +1,120 @@
+/*General styles*/
+* {
+    box-sizing: content-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body {
+    align-items:stretch;
+    display: flex;
+    flex-direction: column;
+    min-width: 950px;
+    height: 100vh;
+}
+.flex {
+    display: flex;
+}
+.secondary-text,
+a {
+    color: #F9FAF8;
+    font-size: 1.125rem;
+}
+/*nav menu*/
+#flex-header {
+    align-items: center;
+    background-color: #1F2937;
+    flex-direction: column;
+}
+#nav-menu {
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem 0 1.5rem;
+    max-width: 1000px;
+    width: 70%;
+}
+#nav-menu h2 {
+    color: #F9FAF8;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+#nav-menu li {
+    display: inline-block;
+    margin-left: 3rem;
+}
+#nav-menu li a {
+    border-radius: 30px;
+    display: block;
+    padding: 8px 15px;
+    transition: all 250ms;
+}
+#nav-menu li a:hover {
+    background-color: #ffffff25;
+    transform: scale(1.1);
+}
+/* main section*/
+main {
+    align-items: center;
+    background-color: #E5E7EB;
+    justify-content: center;
+    flex: 4 1 auto;
+}
+article {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+}
+#title{
+    flex-direction: column;
+    margin-top: 1rem;
+    max-width: 1000px;
+}
+#title h1,
+#title p {
+    color: #1F2937;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+.img-container {
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+    max-width: 1000px;
+}
+#hero-img{
+    width: 300px;
+    border: 1px solid #1F2937;
+    border-radius: 1rem;
+}
+.credit img{
+    width: 150px;
+    height: 170px;
+    border: 1px solid #1F2937;
+    border-radius: 1rem;
+}
+img {
+    display: block;
+    transition: all 300ms;
+}
+img:hover {
+    transform: translate(0, -10px);
+}
+.quote {
+    margin: 1rem 0;
+}
+.quote p a {
+    color: #1F2937;
+}
+/*Footer*/
+#flex-footer{
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 1rem;
+    padding: 1.5rem 0;
+    text-align: center;
+}
